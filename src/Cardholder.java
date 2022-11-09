@@ -8,7 +8,7 @@ public class Cardholder {
 
     private String idNum; //the user's ID number
 
-    private byte pinPassword[]; //4 digits of the user's PIN password
+    private byte[] pinPassword; //4 digits of the user's PIN password
 
     private ArrayList<Account> accounts; //the list of user's accounts
 
